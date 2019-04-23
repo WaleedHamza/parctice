@@ -5,7 +5,7 @@ export default class Trailer extends Component {
   render() {
     return (
       <div>
-         <Iframe url="http://www.youtube.com/embed/5c9294240e0a267cd516835f"
+         <Iframe url="http://www.youtube.com/embed/NWWzve8Z90s"
         width="720px"
         height="450px"
         id="myId"
