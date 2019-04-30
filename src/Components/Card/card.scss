@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+.backdrop{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgba(22,222,22,0.9)
+}
+.card{
+    display: flex;
+}
+.row{
+    position: absolute;
+    background-color: rgba(45, 45, 52, 0.865);
+    overflow: hidden;
+    bottom: 0;
+    top:0;
+    left:0;
+}
+.movieData{
+    width: 70%;
+    padding-top: 10vw;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+.poster{
+    border-radius: 5%;
+    display:flex;
+    float: left;
+    min-width: 342px; 
+    // max-width: 420px;    
+    height: 540px;
+}
+.movie_details{
+    float: right;
+    text-align: left;
+    color: white;
+    margin: 20px;
+}
+.movie-title{
+    display: flex;
+    align-items: baseline;   
+}
+
+

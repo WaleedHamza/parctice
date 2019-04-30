@@ -1,41 +1,34 @@
 import React, { Component } from 'react'
-import axios from 'axios'
-// import Postform from 'postform'
+// import Card from '../Card/Card';
+// import axios from 'axios'
+// import Postform from '../Postform/Postform'
 // import Iframe from 'react-iframe'
 // import Trailer from './trailer'
 
 class Post extends Component {
 
 
-    constructor(props){
-        super(props);
-        this.state = {
-            movies: []
-          }
-      }
+    // constructor(props){
+    //     super(props);
+    //     this.state = {
+    //         movies: []
+    //       }
+    //       updateState = updateState.bind(this)
+    //       onChange= onChange.bind(this)
+    //   }
       
-    componentWillMount(){
+    // componentWillMount(){
+    //   console.log(this.props.PostForm.movies)
+    
+    // }
 
     
-    }
-
-    getTrailer() {
-      const url = `https://api.themoviedb.org/3/movie/${this.state.results.id}?api_key=615416944a44ce93ed4100b890e43b0a&append_to_response=videos`;
-      console.log(this.state.results.data.id)
-      axios.get(url)
-      .then((res) => {
-        // console.log(res)
-        var results = res.data.videos.results[0].key
-        this.setState({trailerKey: results})
-            console.log(results)
-      })
-    }
 
 
   render() {
     // console.log('this.props.children')
-    const movieItems = this.props.movies
-    console.log(movieItems)
+    // const movieItems = this.props.onChange(this.state)
+    // console.log(movieItems)
     // const src='https://image.tmdb.org/t/p/w185/' + {movie.poster_path}
     // const movieItems = this.props.searchTitle.map( movie => (
     //     <div key = {movie.id}>
@@ -52,8 +45,11 @@ class Post extends Component {
     // ))
     return (
       <div>
+        {/* <Postform /> */}
+        {/* <h1>I am here</h1> */}
+        {/* <Card movies={this.props.movies} /> */}
        {/* {movieItems} */}
-       {/* {this.props.movies} */}
+       
       </div>
 
     )

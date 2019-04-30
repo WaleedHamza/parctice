@@ -1,0 +1,21 @@
+$base-color: #373650;
+$border-dark: rgba($base-color, 0.88);
+
+
+
+.searchInput {
+    margin: 20px;
+    width: 40%;
+    outline: none;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid  #373650;
+    // border-bottom: 1px solid $border-dark;
+    font-size: 20px;
+
+}
+
+input:focus :active {
+background-color: none; 
+}
+input, select, textarea, button, a {-webkit-tap-highlight-color:#ccc; }

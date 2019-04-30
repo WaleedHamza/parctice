@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-
-import Post from './Components/Post'
-import Postform from './Components/Postform.js'
+import Search from './Components/Search/Search.js'
 
 class App extends Component {
+
+
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
         </header>
-        <Postform />
-        <hr></hr>
-        <Post />
+        <Search />
        
       </div>
     );
