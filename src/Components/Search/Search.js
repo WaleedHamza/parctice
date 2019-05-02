@@ -28,21 +28,21 @@ import './search.scss'
         results.forEach((movie) => {
           movie.poster='https://image.tmdb.org/t/p/original' + movie.poster_path
           movie.backdrop='https://image.tmdb.org/t/p/original' + movie.backdrop_path
-          const film= <Card movie= {movie}/>
+          const film= <Card movie= {movie} key={movie.id}/>
             movieItems.push(film)
           })
 
           this.setState({movies: movieItems})
-          console.log(this.state)
+          // console.log(this.state)
           })
       .catch((err) => {
               console.log(err)
           }) 
   }
 
+
+
   render() {
-  
-    
     return (
       <div>
         <form>
